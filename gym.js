@@ -21,13 +21,13 @@ function bmi() {
     document.getElementById('bmi').innerHTML = "Invalid"
   }
   else if (bmi < 18.5) {
-    pdfUrl = '/WeightGain.pdf'
+    pdfUrl = 'WeightGain.pdf'
   }
   else if (bmi > 25) {
-    pdfUrl = '/WeightLoss.pdf'
+    pdfUrl = 'WeightLoss.pdf'
   }
   else {
-    pdfUrl = '/NormalWeight.pdf'
+    pdfUrl = 'NormalWeight.pdf'
   }
 
   if (bmi > 0) {
